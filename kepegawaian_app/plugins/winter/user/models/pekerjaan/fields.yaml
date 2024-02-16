@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: "winter.user::lang.models.general.id"
+        disabled: true
+    nama_pekerjaan:
+        label: "Nama Pekerjaan"
+        required: true

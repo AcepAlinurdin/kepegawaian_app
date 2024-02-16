@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: 'winter.user::lang.models.user.label'
+
+# Model Form Field configuration
+form: $/winter/user/models/user/fields.yaml
+
+# Model Class name
+modelClass: Winter\User\Models\User
+
+# Default redirect location
+defaultRedirect: winter/user/users
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: winter/user/users/update/:id
+    redirectClose: winter/user/users
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: winter/user/users
+    redirectClose: winter/user/users
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

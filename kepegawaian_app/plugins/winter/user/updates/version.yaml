@@ -1,0 +1,8 @@
+1.0.0:
+    - 'First version of user'
+1.0.1:
+    - 'Create users Table'
+    - v1.0.1/create_users_table.php
+1.0.2:
+    - 'Create pekerjaans Table'
+    - v1.0.2/create_pekerjaans_table.php

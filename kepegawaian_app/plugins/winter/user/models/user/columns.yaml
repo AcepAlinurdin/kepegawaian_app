@@ -1,0 +1,36 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: "winter.user::lang.models.general.id"
+        searchable: true
+    nama:
+        label: "Nama"
+        searchable: true
+    pekerjaan_id:
+        label: "Pekerjaan"
+        searchable: true
+    email:
+        label: "Email"
+        searchable: true
+    tanggal_lahir:
+        label: "Tanggal Lahir"
+        type: date
+        searchable: true
+    jenis_kelamin:
+        label: "Jenis Kelamin"
+        type: text
+        searchable: true
+    created_at:
+        label: "winter.user::lang.models.general.created_at"
+        type: datetime
+        searchable: true
+        sortable: true
+        invisible: true
+    updated_at:
+        label: "winter.user::lang.models.general.updated_at"
+        type: datetime
+        searchable: true
+        sortable: true

@@ -1,0 +1,29 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: "winter.user::lang.models.general.id"
+        disabled: true
+    nama:
+        label: "Nama"
+        required: true
+    pekerjaan:
+        label: "Pekerjaan"
+        type: relation
+        select: nama_pekerjaan
+        nameFrom: nama_pekerjaan
+    email:
+        label: "Email"
+        type: email
+    tanggal_lahir:
+        label: "Tanggal Lahir"
+        type: datepicker
+        mode: date
+    jenis_kelamin:
+        label: "Jenis Kelamin"
+        type: dropdown
+        options:
+            l: "Laki-laki"
+            p: "Perempuan"

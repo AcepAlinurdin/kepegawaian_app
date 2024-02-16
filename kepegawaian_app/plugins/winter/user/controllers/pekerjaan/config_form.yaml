@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: 'winter.user::lang.models.pekerjaan.label'
+
+# Model Form Field configuration
+form: $/winter/user/models/pekerjaan/fields.yaml
+
+# Model Class name
+modelClass: Winter\User\Models\Pekerjaan
+
+# Default redirect location
+defaultRedirect: winter/user/pekerjaan
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: winter/user/pekerjaan/update/:id
+    redirectClose: winter/user/pekerjaan
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: winter/user/pekerjaan
+    redirectClose: winter/user/pekerjaan
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
